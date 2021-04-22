@@ -1,2 +1,8 @@
-$bg: yellow;
-body { background: $bg; }
+@import "normalize.scss";
+@import "variables.scss";
+@import "functions.scss";
+@import "mixins.scss";
+@import "base-before.scss";
+@import "base.scss";
+@import "baseafter.scss";
+@import "layout.scss";
