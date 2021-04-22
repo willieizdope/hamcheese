@@ -7,3 +7,10 @@
 //   border-radius: $border;
 //   font-variant: small-caps;
 // }
+
+@mixin box {
+  background: $black;
+  color: $white;
+  border: 2px solid $pastelPurp;
+  padding: 15px;
+}

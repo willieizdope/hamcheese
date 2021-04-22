@@ -1,5 +1,26 @@
 body{
   display: grid;
-  grid-template-columns: repeat(1fr,8);
+  //grid-template-columns: repeat(1fr,8);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header header header"
+  "main main main main main main"
+  "footer footer footer footer footer footer";
   margin: auto;
+}
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
 }
