@@ -2,8 +2,8 @@
 
 @mixin divProp {
   width: $equ;
-  height: 25px;
-  background: black;
+  height: auto;
+  background: rgba(200,200,200,.7);
   border: 1px solid;
   box-sizing: border-box;
   float: left;
