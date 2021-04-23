@@ -5,6 +5,9 @@ body{
 header{
   text-align: center;
 }
+footer{
+  text-align: center;
+}
 #container > section{
   @include gridBox;
   text-align: center;
