@@ -6,11 +6,10 @@ header{
   text-align: center;
 }
 
+#projects > div{
+  @include divProp;
+}
 
 // #projects section{
 //   @include grid(3, 4%);
-// }
-
-// p{
-//   @include box;
 // }
