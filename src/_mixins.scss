@@ -1,6 +1,18 @@
 // combined attributes that we can load in at once. think about...
 
-@mixin gridBox {
+@mixin fullBox {
+  width: 98%; //fuck with the width/margin to make your grid setup
+  margin: 1%;
+  height: auto;
+  background: rgba(200,200,200,.7);
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+@mixin halfBox {
   width: 48%; //fuck with the width/margin to make your grid setup
   margin: 1%;
   height: auto;
@@ -9,6 +21,31 @@
   border-radius: 15px;
   box-sizing: border-box;
   float: left;
+  text-align: center;
+}
+
+@mixin thirdBox {
+  width: 31%;
+  margin: 1%;
+  height: auto;
+  background: rgba(200,200,200,.7);
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+@mixin quarterBox {
+  width: 23%;
+  margin: 1%;
+  height: auto;
+  background: rgba(200,200,200,.7);
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
 }
 
 @mixin navBar{

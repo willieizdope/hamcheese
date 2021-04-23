@@ -8,9 +8,15 @@ header{
 footer{
   text-align: center;
 }
-#container > section{
-  @include gridBox;
+#container > .half {
+  @include halfBox;
   text-align: center;
+}.quarter{
+  @include quarterBox;
+}.third{
+  @include thirdBox;
+}.full{
+  @include fullBox;
 }
 nav{
   @include navBar;
