@@ -1,12 +1,14 @@
 // combined attributes that we can load in at once. think about...
 
 @mixin gridBox {
-  width: $equ;
+  width: 46%;
   height: auto;
   background: rgba(200,200,200,.7);
   border: 1px solid;
+  border-radius: 15px;
   box-sizing: border-box;
   float: left;
+  margin: 2%;
 }
 
 @mixin navBar{
