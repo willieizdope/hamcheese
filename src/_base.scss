@@ -5,11 +5,7 @@ body{
 header{
   text-align: center;
 }
-
 #projects > section{
-  @include divProp;
+  @include gridBox;
+  text-align: center;
 }
-
-// #projects section{
-//   @include grid(3, 4%);
-// }
