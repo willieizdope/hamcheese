@@ -5,7 +5,11 @@ body{
 header{
   text-align: center;
 }
-#projects > section{
+#container > section{
   @include gridBox;
   text-align: center;
+}
+nav{
+  @include navBar;
+  grid-column-end: span 7;
 }

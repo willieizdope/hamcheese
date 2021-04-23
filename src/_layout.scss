@@ -1,12 +1,12 @@
 body{
   display: grid;
   //grid-template-columns: repeat(1fr,8);
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-  "header header header header header header"
-  "main main main main main main"
-  "footer footer footer footer footer footer";
+  "header header header header header header header header"
+  "main main main main main main main main"
+  "footer footer footer footer footer footer footer footer";
   margin: auto;
 }
 header {
@@ -24,7 +24,3 @@ aside {
 footer {
   grid-area: footer;
 }
-
-// .item{
-//   grid-column-end: span 4;
-// }
